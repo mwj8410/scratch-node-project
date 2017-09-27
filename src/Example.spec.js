@@ -5,7 +5,7 @@ const expect = require('chai').expect;
 // Tested Module
 const ExampleModule = require('./Example.module');
 
-describe('Data Source: Mongo', () => {
+describe('Example Module', () => {
   it('exists', () => {
     expect(ExampleModule).to.be.a('object');
   });
